@@ -1,0 +1,100 @@
+#web{
+	background: url("https://i.ytimg.com/vi/PCE0k6PcDcw/maxresdefault.jpg");
+}
+#ui{
+	background: url("https://cdn.suwalls.com/wallpapers/3d/sphere-5871-1920x1200.jpg");
+}
+#image{
+	background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRf097NPzr7LOgS6EUu6V7lFkLG9R50EHlFJg&usqp=CAU");
+}
+#web, #ui, #image
+{
+	background-size: cover;
+	background-position: center;
+	color: white;
+	height: 15rem;
+	border-radius: 40px;
+}
+#second{
+	font-size: 1.25rem;
+}
+#views{
+	font-size: 0.95rem;
+}
+#heading{
+	font-size: 3rem;
+	font-weight: bold;
+}
+#right
+{
+	background-color:#f9a602;
+	border-radius: 25px;
+	height: 47.5rem;
+
+}
+#last h3{
+	font-size: 2rem;
+}
+#side1{
+	background: url("https://wallpapercave.com/wp/wp4396980.png");
+}
+#side2
+{
+	background: url("https://ak.picdn.net/shutterstock/videos/2426420/thumb/1.jpg");
+}
+#side3
+{
+	background: url("https://i.pinimg.com/originals/a8/e3/8f/a8e38f98ae33fb7079ce53748059dd90.jpg");
+}
+#side1, #side2, #side3
+{
+	border-radius: 25px;
+	height:13rem;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+#side4{
+	background-color: black;
+	color: #f9a602;
+	border-radius: 25px;
+	height: 11rem;
+}
+.jumbotron h1{
+font-size: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+.jumbotron h1{
+	font-size: 1rem;
+}
+#heading{
+	font-size: 1.25rem;
+}
+.jumbotron h5{
+	font-size: 1rem;
+}
+.jumbotron p{
+	font-size: 0.88rem;
+}
+#right h3{
+	font-size: 1rem;
+}
+#right #views{
+	font-size: 0.85rem;
+}
+#second{
+	font-size: 1rem;
+}
+#right{
+	max-height: 41rem;
+}
+#side1,#side2,#side3{
+	max-height: 11rem;
+	max-width: 12rem;
+}
+#side4{
+	max-width: 12rem;
+	max-height: 9rem; 
+}
+}
